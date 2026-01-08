@@ -80,7 +80,7 @@ curl -fsSL https://raw.githubusercontent.com/amanjeet233/cursur-vip/main/scripts
 **Windows**
 
 ```powershell
-irm https://raw.githubusercontent.com/amanjeet233/cursur-vip/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/amanjeet233/cursur-vip/master/scripts/install_new.ps1 | iex
 ```
 
 </details>
