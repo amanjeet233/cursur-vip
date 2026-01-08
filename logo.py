@@ -72,11 +72,11 @@ LOGO_TEXT = f"""{Fore.CYAN}
 
 DESCRIPTION_TEXT = f"""{Fore.YELLOW}
 Pro Version Activator v{version}{Fore.GREEN}
-Author: Pin Studios (yeongpin)"""
+Author: Amanjeet (amanjeet233)"""
 
 CONTRIBUTORS_TEXT = f"""{Fore.BLUE}
 Contributors:
-BasaiCorp  aliensb  handwerk2016  Nigel1992
+Amanjeet233  BasaiCorp  aliensb  handwerk2016  Nigel1992
 UntaDotMy  RenjiYuusei  imbajin  ahmed98Osama
 bingoohuang  mALIk-sHAHId  MFaiqKhan  httpmerak
 muhammedfurkan plamkatawe Lucaszmv
