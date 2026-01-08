@@ -7,10 +7,10 @@
 
 <p align="center">
 
-[![Release](https://img.shields.io/github/v/release/yeongpin/cursor-free-vip?style=flat-square&logo=github&color=blue)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+[![Release](https://img.shields.io/github/v/release/amanjeet233/cursur-vip?style=flat-square&logo=github&color=blue)](https://github.com/amanjeet233/cursur-vip/releases/latest)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-[![Stars](https://img.shields.io/github/stars/yeongpin/cursor-free-vip?style=flat-square&logo=github)](https://github.com/yeongpin/cursor-free-vip/stargazers)
-[![Download](https://img.shields.io/github/downloads/yeongpin/cursor-free-vip/total?style=flat-square&logo=github&color=52c41a1)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+[![Stars](https://img.shields.io/github/stars/amanjeet233/cursur-vip?style=flat-square&logo=github)](https://github.com/amanjeet233/cursur-vip/stargazers)
+[![Download](https://img.shields.io/github/downloads/amanjeet233/cursur-vip/total?style=flat-square&logo=github&color=52c41a1)](https://github.com/amanjeet233/cursur-vip/releases/latest)
 
 </p>
 <h4>Support Latest 0.48.x Version | 支持最新 0.48.x 版本</h4>
@@ -74,13 +74,13 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
 **Linux/macOS**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
+curl -fsSL https://raw.githubusercontent.com/amanjeet233/cursur-vip/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 ```
 
 **Windows**
 
 ```powershell
-irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/amanjeet233/cursur-vip/main/scripts/install.ps1 | iex
 ```
 
 </details>
@@ -91,7 +91,7 @@ irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/inst
 **Linux/macOS**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/reset.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/amanjeet233/cursur-vip/main/scripts/reset.sh | sudo bash
 ```
 
 **Windows**
