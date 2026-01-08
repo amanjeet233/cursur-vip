@@ -66,14 +66,20 @@ Write-Host "Created by YeongPin`n" -ForegroundColor $Theme.Info
 
 # Main installation function
 function Install-CursorFreeVIP {
-    Write-Styled "Start downloading Cursor Free VIP" -Color $Theme.Primary -Prefix "Download"
-    
+    Write-Styled "Setting up Cursor Free VIP from source" -Color $Theme.Primary -Prefix "Setup"
+
     try {
-        # Get latest version
-        Write-Styled "Checking latest version..." -Color $Theme.Primary -Prefix "Update"
-        $releaseInfo = Get-LatestVersion
-        $version = $releaseInfo.Version
-        Write-Styled "Found latest version: $version" -Color $Theme.Success -Prefix "Version"
+        # Check if Python is installed
+        Write-Styled "Checking Python installation..." -Color $Theme.Primary -Prefix "Python"
+        $pythonCommand = Get-Command python -ErrorAction SilentlyContinue
+        if (!$pythonCommand) {
+            $pythonCommand = Get-Command python3 -ErrorAction SilentlyContinue
+        }
+        if (!$pythonCommand) {
+            Write-Styled "Python is not installed. Please install Python 3.7+ from https://python.org" -Color $Theme.Error -Prefix "Error"
+            throw "Python not found"
+        }
+        Write-Styled "Python found: $($pythonCommand.Source)" -Color $Theme.Success -Prefix "Python"
         
         # Find corresponding resources
         $asset = $releaseInfo.Assets | Where-Object { $_.name -eq "CursorFreeVIP_${version}_windows.exe" }
